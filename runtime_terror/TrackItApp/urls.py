@@ -5,5 +5,7 @@ from . import views
 urlpatterns = [
     path('report/',views.show),
     # path('second/',views.second,name='second'),
-    path('fetch',views.fetch,name='fetch')
+    path('fetch',views.fetch,name='fetch'),
+    path('home',views.back,name='home'),
+    path('url',views.keep,name='top')
 ]
